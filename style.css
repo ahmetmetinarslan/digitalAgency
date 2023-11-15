@@ -22,7 +22,6 @@ body .container {
   width: 1440px;
   height: auto;
   background-color: #fff;
-  border: 1px solid red;
 }
 
 body .container .navbar {
@@ -57,6 +56,8 @@ body .container .navbar .nav-list {
 body .container .navbar .nav-list a {
   text-decoration: none;
   color: #000;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 body .container .navbar .nav-list a:hover {
@@ -155,6 +156,15 @@ body .container .header .header-box .header-text .header-btn {
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+body .container .header .header-box .header-text .header-btn:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 body .container .header .header-sponsor {
@@ -171,5 +181,86 @@ body .container .header .header-sponsor {
 
 body .container .header .header-sponsor img {
   cursor: pointer;
+}
+
+body .container .section-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  width: 1440px;
+  height: 900px;
+}
+
+body .container .section-one .section-one-img {
+  width: 555px;
+  height: 456px;
+  position: relative;
+}
+
+body .container .section-one .section-one-img img {
+  position: absolute;
+  left: 110px;
+  z-index: 1;
+}
+
+body .container .section-one .section-one-box {
+  width: 634px;
+  height: 608px;
+  border: 3px solid black;
+  padding: 80px;
+  margin-right: 80px;
+  position: relative;
+}
+
+body .container .section-one .section-one-box h3 {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body .container .section-one .section-one-box p {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+body .container .section-one .section-one-box .s-o-btn {
+  width: 301px;
+  height: 76px;
+  border-radius: 25.926px;
+  background: #A1A9F6;
+  border: none;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 25.926px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  left: 380px;
+  bottom: 15px;
+  position: absolute;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+}
+
+body .container .section-one .section-one-box .s-o-btn:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 /*# sourceMappingURL=style.css.map */
