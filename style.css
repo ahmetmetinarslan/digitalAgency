@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  width: 1440px;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid red;
+}
+
+body .container .navbar {
+  width: 100%;
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .navbar .nav-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  color: #000;
+  cursor: pointer;
+}
+
+body .container .navbar .nav-list {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+body .container .navbar .nav-list a {
+  text-decoration: none;
+  color: #000;
+}
+
+body .container .navbar .nav-list a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .container .navbar .nav-sign-in button {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+body .container .navbar .nav-sign-in button span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+body .container .navbar .nav-sign-in button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=style.css.map */
