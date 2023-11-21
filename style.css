@@ -483,4 +483,181 @@ body .container .section-two .img-box-three .img-text p {
   font-weight: 300;
   line-height: normal;
 }
+
+body .container .section-three {
+  width: 1440px;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+body .container .section-three .section-three-box-one {
+  width: 400px;
+  height: 592px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+body .container .section-three .section-three-box-one p {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+body .container .section-three .section-three-box-one button {
+  width: 202px;
+  height: 64px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 21.634px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1.082px;
+  text-transform: capitalize;
+  background: #A1A9F6;
+  border: none;
+  cursor: pointer;
+}
+
+body .container .section-three .section-three-box-one button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .container .section-three .section-three-box-two {
+  width: 400px;
+  height: 592px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+body .container .section-three .section-three-box-two p {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+body .container .section-three .section-three-box-two button {
+  width: 202px;
+  height: 64px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 21.634px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1.082px;
+  text-transform: capitalize;
+  background: #A1A9F6;
+  border: none;
+  cursor: pointer;
+}
+
+body .container .section-three .section-three-box-two button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .container .section-three .section-three-box-three {
+  width: 400px;
+  height: 592px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+body .container .section-three .section-three-box-three p {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+body .container .section-three .section-three-box-three button {
+  width: 202px;
+  height: 64px;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 21.634px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1.082px;
+  text-transform: capitalize;
+  background: #A1A9F6;
+  border: none;
+  cursor: pointer;
+}
+
+body .container .section-three .section-three-box-three button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
 /*# sourceMappingURL=style.css.map */
