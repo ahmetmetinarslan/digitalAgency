@@ -15,6 +15,6 @@ Figma Link: https://www.figma.com/community/file/1304600552865650182/digital-age
 <hr>
 <br><br>
 <a href="https://digitalagencypagefromfigma.netlify.app/">
-  <img width="320" height="180" src="https://i.gifer.com/XVo3.gif" alt="gif" />
+  Live Site
 </a>
 
